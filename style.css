@@ -229,6 +229,7 @@ body, html {
       line-height: 1.8;
       text-align: justify;
       padding: 20px;
+      padding-top: 0px;
     }
     
     .company-image {
