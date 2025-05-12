@@ -12,6 +12,8 @@ body, html {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    scroll-behavior: smooth;
+
   }
 
   header {
@@ -22,6 +24,7 @@ body, html {
     z-index: 999;
     background-color:#065277;;
     width: 100vw;
+    height: 80px;
   }
   
   header #menu-toggle{
@@ -102,6 +105,14 @@ body, html {
     color: #164936;
   }
 }
+
+
+#company, #product, #services, #vision-mission, #contact {
+  scroll-margin-top: 80px; /* If header height is 80px */
+
+}
+
+
   .video-bg {
     position: relative;
     width: 100%;
@@ -207,12 +218,10 @@ body, html {
 
     .company-info h2 {
       font-size: 32px;
-      margin-bottom: 20px;
-      margin-top: 40px;
+      margin-top: 0px;
       color: #062b3d;
       text-align: center;
       padding: 30px;
-      margin-bottom: 30px;
     }
     
     .company-info p {
@@ -373,8 +382,9 @@ body, html {
     #product h2 {
       text-align: center;
       font-size: 32px;
-      margin-bottom: 30px;
+      margin-bottom: 5%;
       color: #062b3d;
+      margin-top: 0px;
     }
     
     .product-container {
@@ -513,9 +523,7 @@ body, html {
     #services h2 {
       text-align: center;
       font-size: 30px;
-      margin-bottom: 30px;
-      /* color: #062b3d; */
-      margin-top: 5%;
+      margin-bottom: 40px;
     }
     
     .service {
@@ -712,7 +720,7 @@ body, html {
       justify-content: space-between;
       align-items: center;
       clear: both;
-      background-color: #444;
+      background-color: #062b3d;
       color: #fff;
       clear: both;
     }
