@@ -257,6 +257,9 @@ body, html {
       display: flex;
        width: 450px;
     }
+        .company-img2 img{
+      height: 250px;
+    }
 /*company media query*/
 /* Tablets and below (max-width: 1024px) */
 @media (max-width: 1024px) {
