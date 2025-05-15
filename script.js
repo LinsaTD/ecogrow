@@ -20,3 +20,14 @@
     });
   });
 
+  // Prevent browsers from restoring scroll position
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  } else {
+    // Fallback for older browsers
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+  }
+
+
