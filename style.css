@@ -184,7 +184,7 @@ body, html {
 
 #company {
     
-    background-image: url(company.jpg);
+    background-image: url(images/company.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ body, html {
        
     }
     .company-img2 img{
-      height: 420px; 
+      height: 350px; 
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       object-fit: cover;
@@ -336,7 +336,7 @@ body, html {
 
   .company-img2,
   .company-img3 {
-    width: 100%;
+    width: 50%;
     max-width: 100%;
   }
   
@@ -363,7 +363,7 @@ body, html {
 
   .company-img2,
   .company-img3 {
-    width: 100%;
+    width: 50%;
   }
       .content h1 {
         font-size: 4rem;
