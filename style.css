@@ -109,6 +109,7 @@ body, html {
 
 #company, #product, #services, #vision-mission, #contact {
   scroll-margin-top: 80px; /* If header height is 80px */
+  position: relative;
 
 }
 
@@ -212,7 +213,7 @@ body, html {
           padding: 20px 20px 0px 20px;
           border-radius: 8px;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-          height: 98vh;
+          height: 98v
     }
 
 
@@ -239,14 +240,14 @@ body, html {
     }
     
     .company-info img {
-      width: 100%;
-      max-width: 500px;
+      width: 90%;
+      /* max-width: 500px; */
       height: auto;
       border-radius: 8px;
       /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
+          object-fit: cover;
     }
     .company-img2{
-      width: 450px;
       flex: 1;
     }
 
@@ -254,12 +255,22 @@ body, html {
       display: flex;
     }
     .company-img3{
-      display: flex;
-       width: 450px;
+    
+       width: 420px;
+       
     }
-        .company-img2 img{
-      height: 250px;
+    .company-img2 img{
+      height: 420px; 
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      object-fit: cover;
     }
+    .company-info,
+  .company-image {
+    width: 60%;
+    height: 100%;
+
+  }
 /*company media query*/
 /* Tablets and below (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -269,13 +280,12 @@ body, html {
   }
 
   .company-container {
-    flex-direction: column;
     height: auto;
   }
 
   .company-info,
   .company-image {
-    width: 90%;
+    width: 50%;
     height: auto;
   }
 
@@ -293,6 +303,18 @@ body, html {
   .company-img2,
   .company-img3 {
     width: 100%;
+  }
+        iframe{
+        max-width: 200px;
+        height: 300px;
+      }
+
+      .company-img2 img{
+      height: 250px; 
+    }
+     .company-cvd-images {
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* Mobile devices (max-width: 768px) */
@@ -317,6 +339,11 @@ body, html {
     width: 100%;
     max-width: 100%;
   }
+  
+      .company-img2 img{
+      height: 250px; 
+    }
+      
 }
 
 
@@ -338,6 +365,10 @@ body, html {
   .company-img3 {
     width: 100%;
   }
+      .content h1 {
+        font-size: 4rem;
+    
+      }
 }
 
 
@@ -418,11 +449,13 @@ body, html {
       font-size: 16px;
       line-height: 1.6;
       text-align: justify;
+          margin-top: 0px;
     }
     .product-sec2{
       display: flex;
       flex-direction: row;
       gap: 5px;
+      margin-bottom: 20px;
     }
     .product-info2{
       flex: 1;
@@ -434,6 +467,8 @@ body, html {
       .product-image2 img{
         width: 470px;
         height: auto;
+              border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
       .product-sec2 p {
       font-size: 16px;
@@ -512,6 +547,10 @@ body, html {
     width: 100%;
     height: auto;
   }
+        iframe{
+        max-width: 200px;
+        height: 300px;
+      }
 }
 
 
@@ -648,6 +687,9 @@ body, html {
         max-width: 200px;
         height: 300px;
       }
+      .footer-section{
+        font-size: 12px;
+      }
       
     }  
   
@@ -735,3 +777,18 @@ body, html {
       margin: 10px 0px;
       padding: 10px;
     }
+    .docs-container {
+  margin-left: auto;
+  width: 200px;
+}
+
+.docs-container a {
+  margin-right: 20px;
+  color: #fff;
+  
+}
+
+.docs-container a:last-child {
+  margin-right: 0;
+}
+ 
