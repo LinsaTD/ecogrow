@@ -111,6 +111,7 @@ body, html {
   scroll-margin-top: 80px; /* If header height is 80px */
   position: relative;
 
+
 }
 
 
@@ -412,8 +413,11 @@ body, html {
       background-color: #ffffff;
       font-family: Arial, sans-serif;
     color: #207893;
-    max-width: 1200px;
-    margin:10% ;
+  max-width: 1800px;
+  margin: 10%;
+      border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+
     }
     
     #product h2 {
@@ -483,6 +487,7 @@ body, html {
 @media (max-width: 1024px) {
   #product {
     padding: 70px 15px;
+    
   }
 
   .product-container {
@@ -530,6 +535,7 @@ body, html {
 @media (max-width: 480px) {
   #product h2 {
     font-size: 24px;
+      margin: 0px;
   }
 
   .product-sec p {
@@ -563,8 +569,8 @@ body, html {
       background: #48697ac9;
       font-family: Arial, sans-serif;
       color:#062b3d;
-         max-width: 1200px;
-    margin:5% ;
+      max-width: 1800px;
+      margin: 10%;
     }
     
     #services h2 {
@@ -614,8 +620,8 @@ body, html {
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.05);
           color: #207893;
-             max-width: 1200px;
-    margin:5% ;
+      max-width: 1800px;
+      margin: 10%;
       
     }
     
@@ -638,66 +644,7 @@ body, html {
 
     }
     
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      #vision-mission {
-        padding: 30px 15px;
-      }
-    
-      #vision-mission h2 {
-        font-size: 1.5rem;
-      }
-    
-      #vision-mission p {
-        font-size: 0.95rem;
-      }
-      .ecodiamond img{
-        width: 250px;
-      }
-      .service img {
-        width: 200px;
-      }
-      #services h2 {
-        
-      }
 
-    }
-    
-    
-  
-    @media (max-width: 768px) {
-      .logo-blur {
-        width: 150px;
-        filter: blur(2px);
-      }
-    }
-    
- 
-    @media (max-width: 768px) {
-      #contact {
-        padding: 30px 15px;
-      }
-    
-      #contact h2 {
-        font-size: 1.6rem;
-      }
-    
-      #contact p {
-        font-size: 1rem;
-      }
-      .map-container {
-     
-        max-width: 200px;
-      }
-      iframe{
-        max-width: 200px;
-        height: 300px;
-      }
-      .footer-section{
-        font-size: 12px;
-      }
-      
-    }  
   
    
     
@@ -707,8 +654,8 @@ body, html {
       padding: 40px 20px;
      
       font-size: 1.3rem;
-      max-width: 1200px;
-      margin:5% ;
+      max-width: 1800px;
+      margin: 10%;
     }
     
     #contact h2 {
@@ -803,3 +750,74 @@ body, html {
   margin-right: 0;
 }
  
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      #vision-mission {
+        padding: 30px 15px;
+        margin: 0px;
+      }
+    
+      #vision-mission h2 {
+        font-size: 1.5rem;
+      }
+    
+      #vision-mission p {
+        font-size: 0.95rem;
+      }
+      .ecodiamond img{
+        width: 250px;
+      }
+      .service img {
+        width: 200px;
+      }
+      #services h2 {
+        
+      }
+
+    }
+    
+    
+  
+    @media (max-width: 768px) {
+      .logo-blur {
+        width: 150px;
+        filter: blur(2px);
+      }
+    }
+    
+ 
+    @media (max-width: 768px) {
+      #contact {
+        padding: 30px 15px;
+          margin: 0px;
+      }
+    
+      #contact h2 {
+        font-size: 1.6rem;
+      }
+    
+      #contact p {
+        font-size: 0.8rem;
+      }
+      /* .map-container {
+     
+        max-width: 100px;
+      } */
+      iframe{
+        max-width: 200px;
+        height: 300px;
+      }
+      .footer-section{
+        font-size: 12px;
+      }
+      .contact-info{
+        min-width: 150px;
+      }
+      iframe{
+      width: 150px;
+    }
+    .map-container{
+      min-width: 160px;
+    }
+      
+    }  
