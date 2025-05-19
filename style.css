@@ -232,6 +232,10 @@ body, html {
       text-align: justify;
       padding: 20px;
       padding-top: 0px;
+        max-width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     }
     
     .company-image {
@@ -254,6 +258,12 @@ body, html {
 
     .company-cvd-images{
       display: flex;
+        max-width: 1200px;
+    justify-content: center;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+        
     }
     .company-img3{
     
