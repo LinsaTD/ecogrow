@@ -412,6 +412,8 @@ body, html {
       background-color: #ffffff;
       font-family: Arial, sans-serif;
     color: #207893;
+    max-width: 1200px;
+    margin:5% ;
     }
     
     #product h2 {
@@ -561,6 +563,8 @@ body, html {
       background: #48697ac9;
       font-family: Arial, sans-serif;
       color:#062b3d;
+         max-width: 1200px;
+    margin:5% ;
     }
     
     #services h2 {
@@ -610,6 +614,8 @@ body, html {
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.05);
           color: #207893;
+             max-width: 1200px;
+    margin:5% ;
       
     }
     
@@ -701,6 +707,8 @@ body, html {
       padding: 40px 20px;
      
       font-size: 1.3rem;
+      max-width: 1200px;
+      margin:5% ;
     }
     
     #contact h2 {
@@ -724,13 +732,16 @@ body, html {
       flex: 1;
       min-width: 280px;
       background: #fff;
-      padding: 10% 0px 20px 15px;
+      padding: 10PX;
+      min-width: 230PX;
     }
     
     .contact-info p {
       font-size: 16px;
-      margin-bottom: 10px;
       color: #444;
+    }
+    .contact-info a{
+      color: black;
     }
     
     .social-icons a {
@@ -751,7 +762,7 @@ body, html {
       min-width: 300px;
     }
     iframe{
-      width: 500px;
+      width: 400px;
     }
 
 
